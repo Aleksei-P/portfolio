@@ -1,0 +1,32 @@
+section#portfolio {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #3c3c3c;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 760px;
+    align-items: center;
+    margin: 0 auto;
+
+    p {
+        line-height: 1.5rem;
+        font-style: italic;
+        text-align: left;
+        color: $gold;
+    }
+
+    div {
+        padding: 0 0 20px 0;
+        opacity: 0;
+        transition: opacity 3s ease-in-out;
+    }
+}
+
+section#portfolio.visible div {
+    opacity: 1;
+}

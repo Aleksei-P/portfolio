@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    max-width: 760px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header nav a {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 10px;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+header div.social a {
+    display: inline-block;
+}
+
+header div.social a svg {
+    height: 30px;
+    display: inline-block;
+    margin: 0 10px;
+    fill: rgba(255, 255, 255, 0.7);
+}
+
+header div.social a svg:hover {
+    fill: rgba(255, 255, 255, 1);
+}
