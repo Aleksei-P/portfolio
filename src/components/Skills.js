@@ -1,12 +1,11 @@
 import { useState } from "react";
 
 export default function Skills() {
-    const [animationSkills, setAnimationSkills] = useState("")
-    return(
+     return(
         <section id='skills'>
             <div className="center">
             <h2>Skills</h2>
-            <div className={"skill-container" + animationSkills}>
+            <div className="skill-container">
                 <div className="skill-box"><img src="/img/js.png" alt="JS" /><span>JS</span></div>
                 <div className="skill-box"><img src="/img/css.png" alt="css" /><span>CSS</span></div>
                 <div className="skill-box"><img src="/img/html.png" alt="html" /><span>HTML</span></div>

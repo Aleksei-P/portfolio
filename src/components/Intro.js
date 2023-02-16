@@ -12,8 +12,7 @@ export default function Intro() {
         <p>
           I'm <span>Alex</span>
           <br />
-          Solution-oriented developer with knowledge of JavaScript and browser APIs as well as experience with React and the ability to develop responsive apps capable of
-          functioning on any device.
+          Solution-oriented front-end developer with knowledge of JavaScript and APIs as well as experience with React.
         </p>
         <a href="#contact">Contact me</a>
       </div>
