@@ -15,7 +15,7 @@ section#intro div {
 
 section#intro p {
     color: #fff;
-    font-size: 1.4npxrem;
+    font-size: 1.4rem;
     line-height: 2rem;
     text-align: center;
     opacity: 0;
@@ -65,7 +65,8 @@ section#intro.visible img {
 section#intro span {
     color: $gold;
     font-size: 1.8rem;
-    font-family: cursive;
+    // font-family: cursive;
+    font-style: italic;
     font-weight: 700;
 }
 
